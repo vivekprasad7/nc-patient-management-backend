@@ -1,0 +1,53 @@
+[
+    {
+      "wardNumber": "Ward A1",
+      "capacity": 20,
+      "specialization": "Pediatrics"
+    },
+    {
+      "wardNumber": "Ward B2",
+      "capacity": 15,
+      "specialization": "Surgery"
+    },
+    {
+      "wardNumber": "Ward C3",
+      "capacity": 25,
+      "specialization": "ICU"
+    },
+    {
+      "wardNumber": "Ward D4",
+      "capacity": 18,
+      "specialization": "Pediatrics"
+    },
+    {
+      "wardNumber": "Ward E5",
+      "capacity": 22,
+      "specialization": "Surgery"
+    },
+    {
+      "wardNumber": "Ward F6",
+      "capacity": 30,
+      "specialization": "ICU"
+    },
+    {
+      "wardNumber": "Ward G7",
+      "capacity": 25,
+      "specialization": "Pediatrics"
+    },
+    {
+      "wardNumber": "Ward H8",
+      "capacity": 20,
+      "specialization": "Surgery"
+    },
+    {
+      "wardNumber": "Ward I9",
+      "capacity": 15,
+      "specialization": "ICU"
+    },
+    {
+      "wardNumber": "Ward J10",
+      "capacity": 18,
+      "specialization": "Pediatrics"
+    }
+  ]
+  

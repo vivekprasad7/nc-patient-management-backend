@@ -1,0 +1,83 @@
+[
+    {
+      "name": "Raj Patel",
+      "age": 28,
+      "medicalHistory": "Diabetes",
+      "gender": "Male",
+      "contact": "+91 9876543210",
+      "assignedWard": "General"
+    },
+    {
+      "name": "Priya Sharma",
+      "age": 35,
+      "medicalHistory": "Hypertension",
+      "gender": "Female",
+      "contact": "+91 8765432109",
+      "assignedWard": "Cardiology"
+    },
+    {
+      "name": "Arun Kumar",
+      "age": 45,
+      "medicalHistory": "Arthritis",
+      "gender": "Male",
+      "contact": "+91 7654321098",
+      "assignedWard": "Orthopedics"
+    },
+    {
+      "name": "Neha Gupta",
+      "age": 32,
+      "medicalHistory": "Migraine",
+      "gender": "Female",
+      "contact": "+91 6543210987",
+      "assignedWard": "Neurology"
+    },
+    {
+      "name": "Sanjay Singh",
+      "age": 50,
+      "medicalHistory": "Heart Disease",
+      "gender": "Male",
+      "contact": "+91 5432109876",
+      "assignedWard": "Cardiology"
+    },
+    {
+      "name": "Preeti Sharma",
+      "age": 27,
+      "medicalHistory": "Asthma",
+      "gender": "Female",
+      "contact": "+91 4321098765",
+      "assignedWard": "Pulmonology"
+    },
+    {
+      "name": "Vikram Patel",
+      "age": 40,
+      "medicalHistory": "Kidney Stones",
+      "gender": "Male",
+      "contact": "+91 3210987654",
+      "assignedWard": "Urology"
+    },
+    {
+      "name": "Anita Verma",
+      "age": 36,
+      "medicalHistory": "Thyroid Disorder",
+      "gender": "Female",
+      "contact": "+91 2109876543",
+      "assignedWard": "Endocrinology"
+    },
+    {
+      "name": "Amit Kumar",
+      "age": 28,
+      "medicalHistory": "Allergies",
+      "gender": "Male",
+      "contact": "+91 1098765432",
+      "assignedWard": "ENT"
+    },
+    {
+      "name": "Divya Singh",
+      "age": 33,
+      "medicalHistory": "Gastrointestinal Issues",
+      "gender": "Female",
+      "contact": "+91 9876543210",
+      "assignedWard": "Gastroenterology"
+    }
+  ]
+  
