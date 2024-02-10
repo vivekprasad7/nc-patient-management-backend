@@ -24,7 +24,7 @@ patientRouter.get("/", async (req, res) => {
 
 patientRouter.post("/", async (req, res) => {
   try {
-    const { patientData } = req.body;
+    const  patientData  = req.body;
     const addedPatient = await addPatient(patientData);
     if (addedPatient) {
       res
@@ -42,7 +42,7 @@ patientRouter.post("/", async (req, res) => {
 
 patientRouter.post("/:patientId", async (req, res) => {
   try {
-    const { patientData } = req.body;
+    const  patientData  = req.body;
     const patientId = req.params.patientId;
     const updatedPatient = await updatePatient(patientId, patientData);
     if (updatedPatient) {

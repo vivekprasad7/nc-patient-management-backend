@@ -34,6 +34,7 @@ const updatePatient = async (patientId, patientToBeUpdated) => {
     const updatedPatient = await Patient.findByIdAndUpdate(
       patientId,
       patientToBeUpdated,
+      {new : true}
     );
     if (updatedPatient) {
       console.log("Patient Updated Successfully", updatedPatient);

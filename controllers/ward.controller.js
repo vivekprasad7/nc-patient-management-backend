@@ -28,7 +28,7 @@ const getWards = async () => {
 
 const updateWard = async (wardId, wardToBeUpdated) => {
   try {
-    const updatedWard = await Ward.findByIdAndUpdate(wardId, wardToBeUpdated);
+    const updatedWard = await Ward.findByIdAndUpdate(wardId, wardToBeUpdated, {new : true});
 
     if (updatedWard) {
       console.log("Ward updated successfully:", updatedWard);

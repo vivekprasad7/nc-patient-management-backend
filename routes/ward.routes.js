@@ -21,7 +21,7 @@ wardRouter.get("/", async (req, res) => {
 
 wardRouter.post("/", async (req, res) => {
   try {
-    const { wardData } = req.body;
+    const wardData  = req.body;
     const addedWard = await addWard(wardData);
     if (addedWard) {
       res.status(200).json({ message: "Ward added successfully", addedWard });
@@ -35,7 +35,7 @@ wardRouter.post("/", async (req, res) => {
 
 wardRouter.post("/:wardId", async (req, res) => {
   try {
-    const { wardData } = req.body;
+    const  wardData  = req.body;
     const wardId = req.params.wardId;
     const updatedWard = await updateWard(wardId, wardData);
     if (updatedWard) {
